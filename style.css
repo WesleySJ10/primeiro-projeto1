@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-imperio {
+    height: 200px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    color: white;
+    background-color: #c51111;
+    font: size 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.logo-sidious {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mãe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+
+.caixa-principal {
+    width: 40%;
+}
+
+
+.logo-fundo {
+    background-image: url("img/DynamicSabers\ EMPEROR\ Lightsaber.jpg");
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6699054621848739) 44%, rgba(255, 10, 0, 0.30575980392156865) 100%);
+    top: 0;
+    position: fixed;
+}
+
+
+.link-whats img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+.biografia {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.titulo {
+    color: rgba(199, 21, 15, 0.863);
+    font-weight: bold;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    justify-content: center;
+}
+
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    outline-color: #c51111;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    outline-color: #c51111;
+
+}
+
+
+.button-form {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+
+.button-form:hover {
+    color: white;
+    background-color: black;
+    font: size 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(103deg, rgba(250, 0, 0, 0.5242471988795518) 64%, rgba(0, 0, 0, 0.6110819327731092) 64%);
+    transition: visibility 1s ease-in-out;
+}
